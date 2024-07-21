@@ -1,5 +1,7 @@
 my_dict = {'Vanya': 1985, 'Lena': 1992, 'Artem': 2017, 'Sergey': 1982}
 print('Словарь:', my_dict)
+#print('Словарь my_dict:')
+#print(my_dict)
 print('Существующее значение: ', my_dict.get('Vanya'))
 print('Несуществующее значение: ', my_dict.get('Sveta', 'Нет его'))
 my_dict['Sveta'] = 1991
